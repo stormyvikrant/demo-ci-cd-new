@@ -20,7 +20,6 @@
             "outputPath": "dist/project1",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "baseHref": "/demo-ci-cd-new/",
             "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",

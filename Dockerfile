@@ -9,8 +9,8 @@ RUN npm install
 # Copy the rest of the application code
 COPY . .
 
-# Build the application
-RUN npm run build --prod --base-href /demo-ci-cd-new/  # Adjust base href as needed
+# Build the application (baseHref is set in angular.json)
+RUN npm run build --prod
 
 # Step 2: Serve the Angular application using Nginx
 FROM nginx:alpine
